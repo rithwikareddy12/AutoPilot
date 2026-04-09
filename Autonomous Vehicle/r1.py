@@ -6,7 +6,7 @@ import paho.mqtt.client as mqtt
 # =======================
 # Config
 # =======================
-BROKER = "10.208.218.104"
+BROKER = "BROKER_IP"
 PORT = 1883
 TOPIC_VIDEO = "video/stream"
 TOPIC_CMD = "rover/cmd"
@@ -24,7 +24,7 @@ try:
 except ImportError:
     pass
 
-YOLO_PATH = "/home/kmit/autopilot/monday/yolov8n.pt"
+YOLO_PATH = "yolov8n.pt"
 if USE_YOLO and os.path.exists(YOLO_PATH):
     model = YOLO(YOLO_PATH)
     print(f"[YOLO] Loaded {YOLO_PATH}")

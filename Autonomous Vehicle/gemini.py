@@ -8,7 +8,7 @@ import google.generativeai as genai
 # =========================
 # Config
 # =========================
-BROKER = "10.208.218.104"
+BROKER = "BROKER_IP"
 PORT = 1883
 TOPIC_VIDEO = "video/stream"
 TOPIC_CMD = "rover/cmd"
@@ -18,7 +18,7 @@ os.makedirs(SAVE_DIR, exist_ok=True)
 
 # NOTE: API key is embedded directly in the code per user request.
 # Replace the string below with your actual API key.
-API_KEY = "AIzaSyCzmgOJgdsF9gsesOhzSeai_HqpY6Csr5A"
+API_KEY = "API_KEY"
 GEMINI_AVAILABLE = False
 model = None
 if API_KEY:

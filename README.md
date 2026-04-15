@@ -7,7 +7,7 @@ The repo includes experiments across Webots, Gemini, Drive-LM, location-based mo
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 
@@ -39,7 +39,7 @@ Each folder contains independent experiments. Most modules run in VsCode and col
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.x  
@@ -73,7 +73,7 @@ If `requirements.txt` is not present, install missing imports based on individua
 
 ---
 
-## ▶️ Running Modules
+## Running Modules
 
 ### CNN Simulator (Audacity Simulator)
 
@@ -101,7 +101,7 @@ Or run any Python control script inside the folder.
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 * Build CNN-based audio/gesture recognition modules.
 * Develop autonomous vehicle logic and simulated behaviour.
@@ -112,7 +112,7 @@ Or run any Python control script inside the folder.
 
 ---
 
-## 📂 Module Overviews
+## Module Overviews
 
 ### **Audacity Simulator (CNN)**
 
@@ -157,48 +157,15 @@ Or run any Python control script inside the folder.
 
 ---
 
-## 🧪 Testing & Outputs
+## Testing & Outputs
 
 * CNN: accuracy curves, confusion matrices, audio classification results
 * Vehicle & rover simulations: behaviour validation through virtual environments
 * Waypoints: trajectory tests in controlled scenes
 * You may create a `/results` folder in each module to store logs, models, screenshots, and videos
-
 ---
 
-## 📞 Contact
-
-For issues or contributions, use the **GitHub Issues** tab or contact the project team.
-
----
-
-## 👥 Contributors
----
-Sarayu – 23BD1A6744  
-Karthik – 23BD1A6704  
-Melankita – 23BD1A6738 
-Rithwika Reddy – 23BD1A6749 
-Surya Akshaya – 23BD1A6723
-
-Mentor: Sai Krishna Sir
-
----
-
----
-
-## 📜 License
-
-If you want to include a license, consider MIT:
-
-```
-MIT License
-Copyright (c) 2025 
-Permission is hereby granted, free of charge, to any person obtaining a copy …
-```
-
----
-
-## 📝 Future Enhancements
+## Future Enhancements
 
 * RL-based autonomous agent
 * Real-time sensor fusion
